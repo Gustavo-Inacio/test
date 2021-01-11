@@ -1,7 +1,11 @@
-const home = () => {
-    return (
-        <div>Home test</div>
-    )
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-export default home; 
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
